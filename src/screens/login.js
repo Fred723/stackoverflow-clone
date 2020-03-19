@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import LoginForm from '../components/loginForm/index'
-import Wrapper from '../components/wrapper'
+//import Wrapper from '../components/wrapper'
 
 function Login({ history }) {
   const BAD_LOGIN_MSG = 'False username or password'
@@ -21,7 +21,7 @@ function Login({ history }) {
           localStorage.setItem('MarvelSession', {
             token: res.headers['x-access-token']
           })
-          history.push('/characters')
+          history.push('/questions')
         }
       })
       .catch(() => alert(BAD_LOGIN_MSG))
