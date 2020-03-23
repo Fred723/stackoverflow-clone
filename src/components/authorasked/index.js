@@ -51,6 +51,7 @@ const AuthorContainer = styled.div`
 display : flex;
 justify-content: space-between;
 background-color: #e6f4ff;
+padding: 10px;
 
 `
 

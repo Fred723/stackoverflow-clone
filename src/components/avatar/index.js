@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Avatar = ({
   size = 50,
-  src = 'https://lh3.googleusercontent.com/a-/AAuE7mDWB_ezhB9t-fYpcvtc55atAWtCGcixFfkEgjNw=k-s30'
+  src = './asked_logo.jpg'
 }) => {
   return <AvatarImage size={size} src={src}></AvatarImage>
 }

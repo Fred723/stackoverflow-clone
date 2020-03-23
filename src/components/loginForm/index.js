@@ -34,7 +34,7 @@ function LoginForm({ title, onConfirm }) {
 
   return (
 
-           <LoginFormContainer>
+      <LoginFormContainer>
         
         <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37">
             <path d="M26 33v-9h4v13H0V24h4v9h22z" fill="#BCBBBB"></path>
@@ -62,7 +62,7 @@ function LoginForm({ title, onConfirm }) {
 
       </StyledSocialConnexion>
       <StyledInput
-        placeholder='Username'
+        placeholder='Username'ù
         type='text'
         value={username}
         onChange={onUsernameChange}
