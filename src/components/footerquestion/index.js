@@ -16,7 +16,7 @@ const footerquestion = () => {
     );
 };
 
-const StyledFooter = styled.p`
+const StyledFooter = styled.div`
     display: flex;
     border-top: 1px solid #eff0f1;
     justify-content: normal;

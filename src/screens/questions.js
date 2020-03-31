@@ -6,6 +6,7 @@ import QuestionSummary from '../components/questionsummary/index'
 import FooterQuestion from '../components/footerquestion/index'
 import Asked from '../components/authorasked/index'
 import Edited from '../components/authoredited/index'
+import Comment from '../components/comment/index'
 import styled from 'styled-components';
 
 const questions = () => {
@@ -37,6 +38,8 @@ const questions = () => {
             <Asked>
             </Asked>
             <Edited></Edited>
+            <Comment></Comment>
+
         
         </div>
 

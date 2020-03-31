@@ -58,12 +58,14 @@ const AvatarContainer = styled.div`
 `
 
 
-const AuthorNameBox =styled.a`
+const AuthorNameBox =styled.div`
 font-size: 13px;    
+padding-left: 10px;
 `
-const AuthorName =styled.a`
+const AuthorName =styled.p`
 font-weight: bold;
 color: #07C;
+margin 0;
 `
 
 const AuthorLog= styled.div`
