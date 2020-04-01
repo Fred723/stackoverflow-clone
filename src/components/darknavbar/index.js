@@ -16,7 +16,10 @@ function DarkNavbar() {
 
       <StyledDiv>
         <StyledLi>
-          
+          sign up
+        </StyledLi>
+        <StyledLi>
+          log in
         </StyledLi>
       </StyledDiv>
     </StyledToolbar>
@@ -41,6 +44,7 @@ const StyledLi = styled.li`
   padding: 10px 10px;
   display: flex;
   align-items: center;
+  font-size: 11px;
 `
 
 const StyledDiv = styled.div`

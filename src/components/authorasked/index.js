@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Avatar from '../avatar'
 import Badge from '../point/index'
 
-const authorasked = ({ image, titre, content }) => {
+const authorasked = ({ image }) => {
     return (
         <div>
             <AuthorContainer>
@@ -79,7 +79,7 @@ display: flex;
 `
 const Status = styled.div`
 display: flex;
-
+font-weight: bold;
 justify-content: end;
 color: #242729;
 `

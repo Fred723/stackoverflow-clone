@@ -79,7 +79,7 @@ display: flex;
 `
 const Status = styled.div`
 display: flex;
-
+font-weight: bold;
 justify-content: end;
 `
 const Log = styled.div`

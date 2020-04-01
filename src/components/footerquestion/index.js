@@ -6,6 +6,9 @@ const footerquestion = () => {
         <div>
             <StyledFooter>
                 <StyledP>
+                    follow
+                </StyledP>
+                <StyledP>
                     share
                 </StyledP>
                 <StyledP>
