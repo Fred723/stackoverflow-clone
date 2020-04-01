@@ -1,4 +1,5 @@
 import React from 'react'
+import * as serviceWorker from './serviceWorker'
 import Routes from './config/routes'
 import { ThemeProvider } from 'styled-components'
 
@@ -15,5 +16,7 @@ function App() {
     </ThemeProvider>
   )
 }
+
+serviceWorker.register()
 
 export default App

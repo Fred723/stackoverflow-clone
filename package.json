@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-react-html-attrs": "^2.1.0"
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "http-server": "^0.12.1"
   }
 }
