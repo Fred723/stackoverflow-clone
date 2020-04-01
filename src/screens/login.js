@@ -18,7 +18,7 @@ function Login({ history }) {
         if (res.data && res.data.errors) {
           alert(BAD_LOGIN_MSG)
         } else {
-          localStorage.setItem('MarvelSession', {
+          localStorage.setItem('StackSession', {
             token: res.headers['x-access-token']
           })
           history.push('/questions')

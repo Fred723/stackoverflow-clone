@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@material-ui/icons/Menu';
+import SearchIcon from '@material-ui/icons/Search';
+
+
 
 function Navbar() {
   return (
@@ -16,7 +19,13 @@ function Navbar() {
 
       <StyledDiv>
         <StyledLi>
-          
+        <SearchIcon/>
+        </StyledLi>
+        <StyledLi>
+          Login
+        </StyledLi>
+        <StyledLi>
+          Sign up
         </StyledLi>
       </StyledDiv>
     </StyledToolbar>
@@ -41,6 +50,7 @@ const StyledLi = styled.li`
   padding: 10px 10px;
   display: flex;
   align-items: center;
+  font-size:13px;
 `
 
 const StyledDiv = styled.div`

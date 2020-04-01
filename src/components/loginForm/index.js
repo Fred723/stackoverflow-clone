@@ -128,8 +128,8 @@ const StyledButton = styled.button`
 `
 
 const PrimaryStyledButton = styled(StyledButton)`
-  background-color: #19667b;
-  border-color: #19667b;
+  background-color: #0077cc;
+  border-color: #0077cc;
   color: white;
 `
 
